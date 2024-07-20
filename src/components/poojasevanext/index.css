@@ -1,0 +1,50 @@
+.god-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:7px;
+}
+
+.temple{
+    height:400px;
+    border-radius: 12px;
+    margin:22px;
+}
+
+.details-temple-para{
+    color:rgb(112, 116, 119);
+}
+
+.puja-packages{
+    width:300px;
+    border:1px solid #6763da;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+    margin:12px;
+}
+
+.puja-packages-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:767px){
+    .god-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .temple{
+            height:250px;
+            margin:10px;
+        }
+}

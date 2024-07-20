@@ -1,0 +1,206 @@
+.logo{
+    height:47px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+.profile{
+    height: 44px;
+    width:44px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding:22px;
+    height:66px;
+   
+   
+   
+}
+
+.links-nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+
+}
+
+.profile-right-side-nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.sidebar-wrapper{
+    display: block;
+    right:0;
+    padding-right:0px;
+    margin-right:0px;
+}
+
+.sidebar-wrapper-close{
+    display: none;
+}
+
+
+
+
+.sidebar-wrapper {
+    position: fixed;
+    top: 0;
+    right: -13px;
+    width: 250px;
+    height: 100%;
+    background-color: #f8eeee;
+    color: #120e0e;
+    transition: right 0.3s ease;
+    margin-top:66px;
+    position: fixed;
+    padding-top:22px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar-wrapper-close{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.links-profile{
+    list-style-type: none;
+    text-decoration: none;
+
+    color:black;
+    padding:22px;
+    margin-bottom:44px;
+    
+
+}
+
+.body-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 245, 222);
+    padding:12px;
+}
+
+.image-hanuman{
+    height: 400px;
+}
+.number-one-image{
+    background-color: #f8eeee;
+    height:40px;
+    border-radius: 50px;
+}
+
+.number-one-paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:55px;
+    align-items: center;
+}
+
+.download-apps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    margin-top:22px;
+}
+
+.app-store{
+    margin-right:22px;
+    
+}
+.app{
+    border-radius: 7px;
+}
+
+.sri{
+    color:rgb(154, 211, 96);
+}
+
+.worlds{
+    color:rgb(7, 44, 12);
+    font-weight: 480;
+}
+.number-two-paragrah{
+    color:rgb(58, 37, 29);
+    font-weight: 700;
+}
+
+.links-on-nav-bar{
+    text-decoration: none;
+    color:#120e0e;
+    font-weight: 600;
+}
+.srimandir{
+    font-weight: 700;
+    font-size:22px;
+}
+
+.book-puja-image{
+    border-radius:50px;
+}
+
+@media (max-width: 768px) {
+   .links-nav-bar{
+    display: none;
+   }
+   .body-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .app{
+    width:150px;
+   }
+   .image-hanuman{
+    height: 300px;
+    margin-top:44px;
+   }
+   .logo{
+    height:33px;
+    width:33px;
+    border-radius: 50px;
+   }
+   .profile-right-side-nav-bar{
+    width:130px;
+   }
+   .worlds{
+    padding-left: 12px;
+    padding-top:22px;
+    font-size:13px;
+   }
+   .number-one-image{
+    height:24px;
+   }
+   .sidebar-wrapper{
+    background-color: rgb(246, 250, 250);
+   }
+   
+  }

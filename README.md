@@ -1,3 +1,59 @@
+
+# Note from user
+
+I developed this project by using react 
+
+implemented a authentication for login by using nodejs on backend 
+
+provided a responsiveness to web app 
+
+used a third party packages 
+
+bcrypt for password hashing
+jsonwebtoken for token generation
+react icons for icons
+
+i used a routes for navigation
+
+create-react-app for creating react app
+
+sqlite and sqlite3 for database
+
+express for nodejs
+
+cors for cross origin resource sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,49 @@
+.slide{
+    height: 300px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top:12px;
+}
+
+.puja-seva-slide{
+    background-color: antiquewhite;
+    padding-top:22px;
+    margin-bottom: 24px;
+}
+
+.god-image{
+    height: 160px;
+    width:280px;
+    border-radius: 20px;
+
+}
+
+.card-god{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 1px 0px 2px 1px whitesmoke;
+    padding: 12px;
+
+}
+
+.card-container-god{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:767px){
+
+    .slide{
+        height: 200px;
+    }
+}
